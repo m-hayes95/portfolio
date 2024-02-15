@@ -42571,26 +42571,51 @@ a.u-link.u-text-hover-grey-90:hover {
   min-height: 151px;
 }
 
+.u-header .u-text-1 {
+  font-size: 4.5rem;
+  font-family: Oswald, sans-serif;
+  text-transform: none;
+  width: 681px;
+  margin: 36px auto 0;
+}
+
+.u-header .u-btn-1 {
+  border-style: solid;
+  font-weight: 700;
+  padding: 0;
+}
+
 .u-header .u-menu-1 {
-  margin: 99px 0 16px auto;
+  margin: -16px 0 16px auto;
 }
 
 .u-header .u-nav-1 {
   font-weight: 700;
   font-size: 1rem;
+  letter-spacing: normal;
 }
 
 .u-header .u-nav-3 {
   font-size: 1.25rem;
 }
 @media (max-width: 1199px) {
-  .u-header .u-nav-1 {
-    letter-spacing: normal;
+  .u-header .u-text-1 {
+    font-size: 3.75rem;
   }
 }
 
-
-
+@media (max-width: 767px) {
+  .u-header .u-text-1 {
+    font-size: 3rem;
+    width: 540px;
+  }
+}
+@media (max-width: 575px) {
+  .u-header .u-text-1 {
+    font-size: 2.25rem;
+    width: 340px;
+  }
+}
  .u-footer {
   background-image: none;
 }
