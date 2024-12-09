@@ -45677,6 +45677,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-btn-1 {
   border-style: solid;
   font-weight: 700;
+  font-size: 4.5rem;
   padding: 0;
 }
 
@@ -45687,6 +45688,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-nav-1 {
   font-weight: 700;
   font-size: 1rem;
+  letter-spacing: normal;
 }
 
 .u-header .u-nav-3 {
@@ -45695,10 +45697,6 @@ a.u-link.u-text-hover-grey-90:hover {
 @media (max-width: 1199px) {
   .u-header .u-text-1 {
     font-size: 3.75rem;
-  }
-
-  .u-header .u-nav-1 {
-    letter-spacing: normal;
   }
 }
 
@@ -45712,6 +45710,10 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-text-1 {
     font-size: 2.25rem;
     width: 340px;
+  }
+
+  .u-header .u-btn-1 {
+    font-size: 2.25rem;
   }
 }
  .u-footer {
